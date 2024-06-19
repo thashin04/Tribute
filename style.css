@@ -49,9 +49,8 @@ P{
 }
 .navbar a:hover {
   background: #ddd;
-  text-decoration: underline;
   color: black;
-  transition: background 1s;
+  transition: background 0.25s;
 }
 .title{
   font-family: "Carrois Gothic", sans-serif;
@@ -120,6 +119,7 @@ P{
   padding: 0;
   margin-top: 130px;
   height: max-content;
+  width: min-content;
 }
 .section-pad{
   padding-top: 160px; 
